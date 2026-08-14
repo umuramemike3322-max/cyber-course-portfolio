@@ -1,7 +1,7 @@
 # Portfolio Setup
 
-**Date:** [today]
-**Source:** Assignment U1-01a — GitHub Repository Setup — Course Portfolio
+**Date:** 14 August 2026  
+**Source:** Assignment U1-01a — GitHub Repository Setup — Course Portfolio  
 **Environment:** GitHub web interface
 
 ## Goal
@@ -9,22 +9,26 @@ Set up a GitHub repository as my portfolio for the course.
 
 ## Steps
 1. Created a GitHub account at github.com/<my-username>
-2. Enabled two-factor authentication using <app name>
+2. Enabled two-factor authentication using an authenticator app
 3. Created repository: github.com/<my-username>/cyber-course-portfolio
-4. Chose visibility: <public / private> because <reason>
-5. Created folder structure with placeholder files
-6. Updated the README to describe the portfolio
-7. Created the entry template in cheatsheets/
-8. Wrote this first entry
+4. Chose visibility: private because I want full control over who sees my work
+5. Created folder structure with placeholder files using the GitHub web editor
+6. Updated the main README to describe the purpose of the portfolio
+7. Created the entry template inside cheatsheets/
+8. Wrote this first entry to document the setup process
 
 ## Findings
-- GitHub's web interface lets me edit and create files directly without installing anything
-- Empty folders cannot be created — a folder appears when its first file is committed
-- Every change is recorded as a "commit" with a timestamp and message — useful both for me (to find old work) and for the instructor (to confirm I worked over time)
+- GitHub’s web interface is enough for basic file creation and editing, no local tools required
+- Folders only appear after adding a file inside them, so placeholder files are needed
+- Every change becomes a commit with a timestamp, which helps track progress over time
+- Branch protection rules can lock the repo so only I can modify it
 
 ## Issues and how I resolved them
-[Anything that didn't work the first time, and how you fixed it. If nothing went wrong, write "No issues this time."]
+- At first I wasn’t sure how to create folders, but I learned that using a path like `unit-1-presecurity/README.md` automatically creates the folder.
+- I also wasn’t sure which branch rules to apply, but restricting creation, updates, and deletions solved the problem.
+- No other issues this time.
 
 ## References
-- <https://docs.github.com/en/get-started/quickstart/hello-world>
-- <https://docs.github.com/en/repositories/creating-and-managing-repositories>
+- https://docs.github.com/en/get-started/quickstart/hello-world
+- https://docs.github.com/en/repositories/creating-and-managing-repositories
+
