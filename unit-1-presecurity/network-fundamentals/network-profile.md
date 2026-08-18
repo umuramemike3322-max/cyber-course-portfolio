@@ -40,7 +40,6 @@
 | 58995                                   | TCP/IPv6 | All IPv6 interfaces         | Service-specific               |
 | 15152, 19443, 46753, 46760, 51779–51782 | TCP      | Localhost                   | Local services                 |
 
-## Reflection (150–200 words)
 
 * What surprised you about your own network? I was surprised by how many services were listening on my computer, including Windows RPC and SMB-related ports. I usually think of my computer as making outgoing connections, but it also has services waiting for incoming connections.
 * Which open port (if any) would you want to investigate or close? I would investigate ports 135, 139, and 445 first because they are related to Windows networking and RPC/SMB. I would also check the less familiar ports such as 4343, 4449, 5040, and 5141 to see which programs use them and whether they are necessary.
